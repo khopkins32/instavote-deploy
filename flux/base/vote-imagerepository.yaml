@@ -3,7 +3,7 @@ apiVersion: image.toolkit.fluxcd.io/v1beta2
 kind: ImageRepository
 metadata:
   name: vote
-  namespace: instavote
+  namespace: flux-system
 spec:
   exclusionList:
   - ^.*\.sig$
